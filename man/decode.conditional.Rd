@@ -1,0 +1,34 @@
+\name{decode.conditional}
+\alias{decode.conditional}
+\title{Conditional decoding method}
+\usage{
+decode.conditional(crf, clamped, decode.method, ...)
+}
+\arguments{
+  \item{crf}{The CRF}
+
+  \item{clamped}{The vector of fixed values for clamped
+  nodes, 0 for unfixed nodes}
+
+  \item{decode.method}{The decoding method to solve clamped
+  CRF}
+
+  \item{...}{The parameters for \code{decode.method}}
+}
+\value{
+This function will return the most likely configuration,
+which is a vector of length \code{crf$n.nodes}.
+}
+\description{
+Computing the most likely configuration for CRF
+}
+\details{
+Conditional decoding (takes another decoding method as
+input)
+}
+\examples{
+library(CRF)
+data(Small)
+d <- decode.conditional(Small$crf, c(0,1,0,0), decode.exact)
+}
+

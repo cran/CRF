@@ -1,0 +1,41 @@
+\name{mrf.nll}
+\alias{mrf.nll}
+\title{Calculate MRF negative log-likelihood}
+\usage{
+mrf.nll(par, crf, instances, infer.method = infer.chain, ...)
+}
+\arguments{
+  \item{crf}{The CRF}
+
+  \item{par}{The parameter vector of CRF}
+
+  \item{instances}{The training data matrix of MRF model}
+
+  \item{infer.method}{The inference method used to compute
+  the likelihood}
+
+  \item{...}{Other parameters need by the inference method}
+}
+\value{
+This function will return the value of MRF negative
+log-likilihood.
+}
+\description{
+Calculate the negative log-likelihood of MRF model
+}
+\details{
+This function calculates the negative log-likelihood of MRF
+model as well as the gradient. This function is intended to
+be called by optimization algorithm in training process.
+Before calling this function, the MRF sufficient statistics
+must be calculated and stored in object \code{par.stat} of
+CRF.
+
+In the training data matrix \code{instances}, each row is
+an instance and each column corresponds a node in CRF.
+}
+\seealso{
+\code{\link{mrf.stat}}, \code{\link{mrf.update}},
+\code{\link{train.mrf}}
+}
+
