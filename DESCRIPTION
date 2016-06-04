@@ -1,5 +1,5 @@
 Package: CRF
-Version: 0.3-9
+Version: 0.3-10
 Title: Conditional Random Fields
 Description: Implements modeling and computational tools for conditional
     random fields (CRF) model as well as other probabilistic undirected
@@ -16,8 +16,8 @@ Author: Ling-Yun Wu [aut, cre]
 Maintainer: Ling-Yun Wu <wulingyun@gmail.com>
 Repository: CRAN
 Repository/R-Forge/Project: crf
-Repository/R-Forge/Revision: 30
-Repository/R-Forge/DateTimeStamp: 2016-05-29 14:33:20
-Date/Publication: 2016-05-30 08:37:51
+Repository/R-Forge/Revision: 31
+Repository/R-Forge/DateTimeStamp: 2016-06-03 15:30:53
+Date/Publication: 2016-06-04 07:52:32
 NeedsCompilation: yes
-Packaged: 2016-05-29 14:45:07 UTC; rforge
+Packaged: 2016-06-03 15:45:20 UTC; rforge
