@@ -1,5 +1,5 @@
 Package: CRF
-Version: 0.3-10
+Version: 0.3-11
 Title: Conditional Random Fields
 Description: Implements modeling and computational tools for conditional
     random fields (CRF) model as well as other probabilistic undirected
@@ -9,15 +9,18 @@ Authors@R: c(person("Ling-Yun", "Wu", role = c("aut", "cre"), email =
 ByteCompile: TRUE
 Depends: R (>= 2.12.0)
 Imports: Rglpk (>= 0.3-5), Matrix (>= 1.1-2)
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
 License: GPL (>= 2)
-URL: http://r-forge.r-project.org/projects/crf/
+BugReports: https://github.com/wulingyun/CRF/issues
+URL: https://github.com/wulingyun/CRF
 RoxygenNote: 5.0.1
 Author: Ling-Yun Wu [aut, cre]
 Maintainer: Ling-Yun Wu <wulingyun@gmail.com>
 Repository: CRAN
 Repository/R-Forge/Project: crf
-Repository/R-Forge/Revision: 31
-Repository/R-Forge/DateTimeStamp: 2016-06-03 15:30:53
-Date/Publication: 2016-06-04 07:52:32
+Repository/R-Forge/Revision: 36
+Repository/R-Forge/DateTimeStamp: 2016-08-28 14:39:23
+Date/Publication: 2016-08-28 18:53:30
 NeedsCompilation: yes
-Packaged: 2016-06-03 15:45:20 UTC; rforge
+Packaged: 2016-08-28 14:45:53 UTC; rforge
