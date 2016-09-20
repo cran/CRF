@@ -62,7 +62,7 @@ void Remove(int *vector, int &size, int v);
 /* swap variables */
 
 template <class T>
-inline void swap(T &a, T &b)
+inline void swap2(T &a, T &b)
 {
 	T temp = a;
 	a = b;
